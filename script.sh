@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Partition and format disks
 mkfs.ext4 /dev/sda3 &&
 mkfs.fat -F 32 /dev/sda1 &&
 mkswap /dev/sda2 &&
@@ -24,3 +27,7 @@ arch-chroot /mnt sed -i 's/# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/g
 arch-chroot /mnt systemctl enable NetworkManager &&
 genfstab -U /mnt > /mnt/etc/fstab &&
 figlet installation finished reboot system
+
+arch-chroot /mnt mkdir /etc/polkit-1/localauthority/&&
+arch-chroot /mnt mkdir /etc/polkit-1/localauthority/50-local.d/ &&
+arch-chroot /mnt touch /etc/polkit-1/localauthority/50-local.d/udisks2.pkla
