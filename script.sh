@@ -21,7 +21,6 @@ arch-chroot /mnt passwd &&
 arch-chroot /mnt useradd -m -G wheel -s /bin/bash arch &&
 arch-chroot /mnt passwd arch &&
 arch-chroot /mnt sed -i 's/# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/g' /etc/sudoers &&
-arch-chroot /mnt systemctl enable gdm &&
 arch-chroot /mnt systemctl enable NetworkManager &&
 genfstab -U /mnt > /mnt/etc/fstab &&
 figlet installation finished reboot system
