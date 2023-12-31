@@ -1,3 +1,3 @@
 lxsession &
 picom &
-exec qtile start
+exec dwm start
