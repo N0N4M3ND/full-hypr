@@ -7,7 +7,7 @@ mount /dev/sda3 /mnt &&
 mount --mkdir /dev/sda1 /mnt/boot/efi &&
 swapon /dev/sda2 &&
 pacman -Syy archlinux-keyring figlet --noconfirm &&
-pacstrap /mnt amd-ucode base kitty base-devel bluez bluez-utils efibootmgr firefox git grub htop intel-ucode linux linux-firmware linux-headers mpv nautilus neovim net-tools networkmanager ntfs-3g obs-studio openssh papirus-icon-theme pipewire pipewire-alsa pipewire-jack pipewire-media-session pipewire-pulse pulsemixer redshift unzip xorg-server xorg-xinit xorg-xsetroot &&
+pacstrap /mnt amd-ucode base kitty base-devel bluez bluez-utils efibootmgr chromium git grub htop intel-ucode linux linux-firmware linux-headers mpv nautilus neovim net-tools networkmanager ntfs-3g obs-studio openssh papirus-icon-theme pipewire pipewire-alsa nautilus pipewire-jack pipewire-media-session pipewire-pulse unzip hyprland waybar &&
 arch-chroot /mnt grub-install /dev/sda &&
 arch-chroot /mnt grub-mkconfig -o /boot/grub/grub.cfg &&
 arch-chroot /mnt ln -sf /usr/share/zoneinfo/Asia/Tbilisi /etc/localtime &&
@@ -26,7 +26,3 @@ arch-chroot /mnt sed -i 's/# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/g
 arch-chroot /mnt systemctl enable NetworkManager &&
 genfstab -U /mnt > /mnt/etc/fstab &&
 figlet installation finished reboot system
-
-arch-chroot /mnt mkdir /etc/polkit-1/localauthority/&&
-arch-chroot /mnt mkdir /etc/polkit-1/localauthority/50-local.d/ &&
-arch-chroot /mnt touch /etc/polkit-1/localauthority/50-local.d/udisks2.pkla
