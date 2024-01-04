@@ -4,7 +4,7 @@
 GREEN="\[\e[32m\]"
 YELLOW="\[\e[33m\]"
 BLUE="\[\e[34m\]"
-PURPLE="\[\e[35m\]"
+PURPLE="\[\e[35m\]"\
 RESET="\[\e[0m\]"
 
 # Custom prompt with username, hostname, current directory, time, and date
@@ -15,6 +15,9 @@ alias ls='ls --color=auto'
 
 # Unzip tar files
 alias untar='tar -xf'
+
+# Show file size
+alias du='du -h'
 
 # Bluetooth shortcut
 alias bluetooth='bluetoothctl'
