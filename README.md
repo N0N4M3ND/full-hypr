@@ -1,9 +1,23 @@
-# WIP
+# all new hyprland window manager for the green os
 
-# WIP
+fully terminalized
 
-# WIP
+# Colorfull ls
+alias ls='ls --color=auto'
 
-# WIP
+# Text editor
+alias micro='text'
 
-# WIP
+# Mount drives
+alias mount ntfs='mount -t ntfs-3g'
+
+# Unzip tar files
+alias untar='tar -xf'
+
+# Show file size
+alias duh='du -h'
+
+# Bluetooth shortcut
+alias bt='bluetoothctl'
+
+shortcuts to take note of
