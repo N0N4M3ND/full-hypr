@@ -7,7 +7,7 @@ mount /dev/sda3 /mnt &&
 mount --mkdir /dev/sda1 /mnt/boot/efi &&
 swapon /dev/sda2 &&
 pacman -Syy archlinux-keyring figlet --noconfirm &&
-pacstrap /mnt amd-ucode base kitty base-devel pulsemixer bluez bluez-utils ly efibootmgr chromium git grub htop intel-ucode linux linux-firmware linux-headers mpv nautilus micro net-tools networkmanager ntfs-3g obs-studio openssh papirus-icon-theme pipewire pipewire-alsa nautilus pipewire-jack pipewire-media-session pipewire-pulse unzip ttc-iosevka hyprland hyprpaper &&
+pacstrap /mnt amd-ucode base tree kitty base-devel pulsemixer bluez bluez-utils ly efibootmgr chromium git grub htop intel-ucode linux linux-firmware linux-headers mpv nautilus micro net-tools networkmanager ntfs-3g obs-studio openssh papirus-icon-theme pipewire pipewire-alsa nautilus pipewire-jack pipewire-media-session pipewire-pulse unzip ttc-iosevka hyprland hyprpaper &&
 arch-chroot /mnt grub-install /dev/sda &&
 arch-chroot /mnt grub-mkconfig -o /boot/grub/grub.cfg &&
 arch-chroot /mnt ln -sf /usr/share/zoneinfo/Asia/Tbilisi /etc/localtime &&
