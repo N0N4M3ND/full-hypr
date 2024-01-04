@@ -1,0 +1,24 @@
+{
+    "colorscheme": "special",
+    "color": {
+        "foreground": "#ffe9c7",
+        "background": "#1a1515",
+        "cursor": "#ffe9c7",
+        "black": "#2d2424",
+        "red": "#cf2241",
+        "green": "#f07942",
+        "yellow": "#e39c45",
+        "blue": "#949f6b",
+        "magenta": "#716c97",
+        "cyan": "#ae3f8a",
+        "white": "#9c8181",
+        "brightBlack": "#725a5a",
+        "brightRed": "#e3556f",
+        "brightGreen": "#f49d75",
+        "brightYellow": "#edbf86",
+        "brightBlue": "#b0b893",
+        "brightMagenta": "#9894b3",
+        "brightCyan": "#ca6bac",
+        "brightWhite": "#ffe9c7"
+    }
+}
