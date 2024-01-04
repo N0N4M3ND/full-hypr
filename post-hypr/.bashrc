@@ -13,6 +13,9 @@ PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESE
 # Colorfull ls
 alias ls='ls --color=auto'
 
+# Mount drives
+alias mount ntfs='mount -t ntfs-3g'
+
 # Unzip tar files
 alias untar='tar -xf'
 
