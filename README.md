@@ -5,11 +5,14 @@ fully terminalized
 # Colorfull ls
 alias ls='ls --color=auto'
 
+# Detailed tree
+alias tree='tree --du -h'
+
 # Text editor
-alias micro='text'
+alias text='micro'
 
 # Mount drives
-alias mount ntfs='mount -t ntfs-3g'
+alias mount-ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
