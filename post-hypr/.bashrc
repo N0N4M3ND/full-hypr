@@ -17,7 +17,7 @@ alias ls='ls --color=auto'
 alias text='micro'
 
 # Mount ntfs
-alias mount ntfs='mount -t ntfs-3g'
+alias mount-ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
