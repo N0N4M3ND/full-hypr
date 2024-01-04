@@ -13,6 +13,9 @@ PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESE
 # Colorfull ls
 alias ls='ls --color=auto'
 
+# Text editor
+alias micro='text'
+
 # Mount drives
 alias mount ntfs='mount -t ntfs-3g'
 
@@ -20,7 +23,7 @@ alias mount ntfs='mount -t ntfs-3g'
 alias untar='tar -xf'
 
 # Show file size
-alias du='du -h'
+alias duh='du -h'
 
 # Bluetooth shortcut
-alias bluetooth='bluetoothctl'
+alias bt='bluetoothctl'
