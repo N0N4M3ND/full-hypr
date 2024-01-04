@@ -8,4 +8,4 @@ PURPLE="\[\e[35m\]"
 RESET="\[\e[0m\]"
 
 # Custom prompt with a colorful > symbol and ~
-PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}>~${RESET} "
+PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESET} "
