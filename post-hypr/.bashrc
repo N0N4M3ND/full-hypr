@@ -16,6 +16,12 @@ alias ls='ls --color=auto'
 # Detailed tree
 alias tree='tree --du -h'
 
+# Browser shortcut
+alias web='chromium'
+
+# Screenshot
+alias ss='grim -g "$(slurp)"'
+
 # Text editor
 alias text='micro'
 
