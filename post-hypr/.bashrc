@@ -16,11 +16,8 @@ alias ls='ls --color=auto'
 # Detailed tree
 alias tree='tree --du -h'
 
-# Browser shortcut
-alias chrome='chromium'
-
-# Screenshot
-alias screenshot='grim -g "$(slurp)"'
+# Brightness adjust
+alias light='brightnessctl set'
 
 # Text editor
 alias text='micro'
