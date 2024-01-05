@@ -16,6 +16,9 @@ alias ls='ls --color=auto'
 # Detailed tree
 alias tree='tree --du -h'
 
+# Browser shortcut for images
+alias web='chromium'
+
 # Brightness adjust
 alias light='brightnessctl set'
 
