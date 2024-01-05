@@ -8,6 +8,9 @@ alias ls='ls --color=auto'
 # Detailed tree
 alias tree='tree --du -h'
 
+# Brightness adjust
+alias light='brightnessctl set'
+
 # Text editor
 alias text='micro'
 
