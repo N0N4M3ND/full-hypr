@@ -17,10 +17,10 @@ alias ls='ls --color=auto'
 alias tree='tree --du -h'
 
 # Browser shortcut
-alias web='chromium'
+alias chrome='chromium'
 
 # Screenshot
-alias ss='grim -g "$(slurp)"'
+alias screenshot='grim -g "$(slurp)"'
 
 # Text editor
 alias text='micro'
