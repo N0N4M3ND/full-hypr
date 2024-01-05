@@ -27,3 +27,9 @@ alias duh='du -h'
 alias bt='bluetoothctl'
 
 shortcuts to take note of
+
+# Bind programs to keys
+bind = $mainMod, Return, exec, $terminal
+bind = $mainMod, s, exec, $screenshot
+bind = $mainMod, b, exec, $browser
+bind = $mainMod, o, exec, $obs
