@@ -17,7 +17,7 @@ PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESE
 alias tree='tree --du -h'
 
 # Browser shortcut for images
-alias web='chromium'
+alias web='firefox'
 
 # Brightness adjust
 alias light='brightnessctl set'
@@ -26,7 +26,7 @@ alias light='brightnessctl set'
 alias text='micro'
 
 # Mount drives
-alias mount-ntfs='mount -t ntfs-3g'
+alias mount_ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
