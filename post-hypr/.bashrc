@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Color codes for the prompt
 GREEN="\[\e[32m\]"
 YELLOW="\[\e[33m\]"
