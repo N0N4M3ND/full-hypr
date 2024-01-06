@@ -1,3 +1,4 @@
+
 # Color codes for the prompt
 GREEN="\[\e[32m\]"
 YELLOW="\[\e[33m\]"
@@ -8,23 +9,23 @@ RESET="\[\e[0m\]"
 # Custom prompt with username, hostname, current directory, time, and date
 PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESET} \[\e[36m\]\A \d\[\e[0m\] "
 
-# Colorfull ls (DO NOT USE WHEN WHEN LOOKING THROUGH A DRIVE)
-# alias ls='ls --color=auto'
+# Colorfull ls
+alias ls='ls'
 
 # Detailed tree
 alias tree='tree --du -h'
 
-# Browser shortcut for images
-alias web='firefox'
-
 # Brightness adjust
 alias light='brightnessctl set'
+
+# Browser shortcut
+alias web='chromium' 
 
 # Text editor
 alias text='micro'
 
 # Mount drives
-alias mount_ntfs='mount -t ntfs-3g'
+alias mnt-ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
