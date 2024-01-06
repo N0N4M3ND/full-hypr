@@ -10,7 +10,7 @@ RESET="\[\e[0m\]"
 PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESET} \[\e[36m\]\A \d\[\e[0m\] "
 
 # Colorfull ls
-alias ls='ls'
+# alias ls='ls --color=auto'
 
 # Detailed tree
 alias tree='tree --du -h'
@@ -25,7 +25,7 @@ alias web='chromium'
 alias text='micro'
 
 # Mount drives
-alias mnt-ntfs='mount -t ntfs-3g'
+# alias mnt-ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
