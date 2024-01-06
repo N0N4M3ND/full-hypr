@@ -3,7 +3,7 @@
 fully terminalized
 
 # Colorfull ls
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
 
 # Detailed tree
 alias tree='tree --du -h'
@@ -11,11 +11,14 @@ alias tree='tree --du -h'
 # Brightness adjust
 alias light='brightnessctl set'
 
+# Browser shortcut
+alias web='firefox' 
+
 # Text editor
 alias text='micro'
 
 # Mount drives
-alias mount-ntfs='mount -t ntfs-3g'
+# alias mnt-ntfs='mount -t ntfs-3g'
 
 # Unzip tar files
 alias untar='tar -xf'
@@ -24,7 +27,7 @@ alias untar='tar -xf'
 alias duh='du -h'
 
 # Bluetooth shortcut
-alias bt='bluetoothctl'
+alias bluez='bluetoothctl'
 
 shortcuts to take note of
 
