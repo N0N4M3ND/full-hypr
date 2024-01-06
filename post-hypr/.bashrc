@@ -19,7 +19,7 @@ alias tree='tree --du -h'
 alias light='brightnessctl set'
 
 # Browser shortcut
-alias web='chromium' 
+alias web='firefox' 
 
 # Text editor
 alias text='micro'
