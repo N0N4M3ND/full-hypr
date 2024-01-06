@@ -21,9 +21,6 @@ alias light='brightnessctl set'
 # Browser shortcut
 alias web='firefox' 
 
-# Text editor
-alias text='micro'
-
 # Mount drives
 # alias mnt-ntfs='mount -t ntfs-3g'
 
