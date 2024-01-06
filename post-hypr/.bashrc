@@ -34,4 +34,4 @@ alias untar='tar -xf'
 alias duh='du -h'
 
 # Bluetooth shortcut
-alias bt='bluetoothctl'
+alias bluez='bluetoothctl'
