@@ -11,7 +11,7 @@ RESET="\[\e[0m\]"
 PS1="${GREEN}\u${RESET}@${YELLOW}\h${RESET}:${BLUE}\w${RESET}\n${PURPLE}~>${RESET} \[\e[36m\]\A \d\[\e[0m\] "
 
 # Colorfull ls (DO NOT USE WHEN WHEN LOOKING THROUGH A DRIVE)
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
 
 # Detailed tree
 alias tree='tree --du -h'
